@@ -7,3 +7,7 @@ jobs:
     steps:
       - name: First Command
         run: echo "Hello, World!"
+      - name: Second Command
+        run: |
+          node -v
+          npm -v
