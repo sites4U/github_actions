@@ -1,9 +1,5 @@
 name: Fourth Workflow
-on:
-  workflow_run:
-    workflows: ['Third Workflow']
-    types:
-      - completed
+on: workflow_dispatch
 
 jobs:
   success-command:
